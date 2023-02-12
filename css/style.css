@@ -1,3 +1,4 @@
+/* Top navbar */
 .link-phone {
     margin-right: 2.5rem;
     text-decoration:none;
@@ -31,4 +32,65 @@
     margin-right: 5rem;
     color: white!important;
     background: #3B5998;
+  }
+
+
+@media only screen and (max-width: 990px) {
+    
+    .link-phone {
+        margin-left: 0.5rem;
+        margin-right: 1rem;
+        text-decoration:none;
+    }
+
+    .fa-facebook {
+        padding: 10px;
+        font-size: 10px;
+        text-align: center;
+        text-decoration: none;
+        margin: 0 auto;
+        color: white!important;
+        background: #3B5998;
+      }
+
+}
+
+
+/* Navbar menu */
+.menu-style {
+    padding: 2rem;
+}
+
+.navbar-image {
+    margin-left: 10%;
+    width: 100px;
+    height: 100px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 5rem;
+}
+  
+.nav-item {
+    padding: 5px 30px;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 990px) {
+    
+    .menu-style {
+        padding: 1rem;
+    }
+
+    .navbar-image {
+        margin-left: 2%;
+        width: 50px;
+        height: 50px;
+    }
+
   }
