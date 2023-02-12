@@ -1,3 +1,8 @@
+/* Containers */
+.container-fluid {
+    padding: 0;
+}
+
 /* Top navbar */
 .link-phone {
     margin-right: 2.5rem;
@@ -48,7 +53,7 @@
         font-size: 10px;
         text-align: center;
         text-decoration: none;
-        margin: 0 auto;
+        margin: 0;
         color: white!important;
         background: #3B5998;
       }
@@ -73,11 +78,11 @@
 }
   
 .nav-item {
-    padding: 5px 30px;
+    padding: 5px 10px;
 }
 
 .nav-link {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 
@@ -93,4 +98,49 @@
         height: 50px;
     }
 
-  }
+}
+
+
+/* Logo */
+.logo-image {
+    width: 100%;
+}
+
+.logo-text1 {
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.logo-text2 {
+    font-size: 4rem;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+@media only screen and (max-width: 990px) {
+    
+    .logo-text1 {
+        font-size: 1.5rem;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .logo-text2 {
+        font-size: 1.5rem;
+        position: absolute;
+        top: 38%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
