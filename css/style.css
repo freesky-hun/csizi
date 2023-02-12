@@ -106,7 +106,7 @@
     width: 100%;
 }
 
-.logo-text1 {
+.logo-text {
     font-size: 4rem;
     position: absolute;
     top: 50%;
@@ -115,30 +115,13 @@
     color: white;
 }
 
-.logo-text2 {
-    font-size: 4rem;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-
 
 @media only screen and (max-width: 990px) {
     
-    .logo-text1 {
+    .logo-text {
         font-size: 1.5rem;
         position: absolute;
         top: 35%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .logo-text2 {
-        font-size: 1.5rem;
-        position: absolute;
-        top: 38%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
