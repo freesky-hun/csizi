@@ -1,12 +1,12 @@
-var typed = new Typed(".logo-text", {
+var typed = new Typed(".slogan-text", {
   strings: [
-    "Ön megálmodja...",
-    "Én megvalósítom!"
+    'Megbízható, precíz szakembert keres?',
+    'Megtalálta!',
+    'Ez nem mese. Ez maga a valóság.'
   ],
   typeSpeed: 60,
-  backSpeed: 60,
-  loop: true
-
+  backDelay: 2000,
+  backSpeed: 20,
+  loop: true,
+  showCursor: false
 })
-
-//Ön megálmodja, én megvalósítom!

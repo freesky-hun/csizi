@@ -104,23 +104,30 @@
 /* Logo */
 .logo-image {
     width: 100%;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    transform: translate(-50%);
-    z-index: -1;
+}
+
+
+/* Slogan */
+.slogan-container {
+    margin: 4rem 0;
+    height: 48px;
+}
+
+.slogan-text {
+    font-family: 'Quicksand', sans-serif;
 }
 
 
 @media only screen and (max-width: 990px) {
     
-    .logo-image {
-        width: 100%;
-        position: absolute;
-        width: 100%;
-        height: 40%;
-        transform: translate(-50%);
-        z-index: -1;
+    .slogan-container {
+        height: 16px;
+        margin: 2rem 0;
+    }
+
+    .slogan-text {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1rem;
     }
 
 }
