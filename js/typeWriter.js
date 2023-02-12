@@ -1,30 +1,12 @@
-var i = 0;
-var txt = "Ön megálmodja, én megvalósítom!";
-            
-function typeWriter() {
-    if (i < txt.length) {
-        document.getElementById("text").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, 50);
-    }
-}
+var typed = new Typed(".logo-text", {
+  strings: [
+    "Ön megálmodja...",
+    "Én megvalósítom!"
+  ],
+  typeSpeed: 60,
+  backSpeed: 60,
+  loop: true
 
-typeWriter();
-var k = 0;      
+})
 
-function myLoop() {
-  setTimeout(function() {
-
-    document.getElementById("text").innerHTML = "";
-    i = 0;
-
-    typeWriter();
-
-    if (k < 1) {
-      myLoop();
-    }
-    
-  }, 5000)
-}
-
-myLoop();
+//Ön megálmodja, én megvalósítom!
