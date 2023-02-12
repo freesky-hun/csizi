@@ -63,13 +63,13 @@
 
 /* Navbar menu */
 .menu-style {
-    padding: 2rem;
+    padding: 0.5rem;
 }
 
 .navbar-image {
     margin-left: 10%;
-    width: 100px;
-    height: 100px;
+    width: 175px;
+    height: 175px;
 }
 
 .navbar-nav {
