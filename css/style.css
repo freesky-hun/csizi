@@ -1,3 +1,8 @@
+/* Body style */
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
 /* Containers */
 .container-fluid {
     padding: 0;
@@ -82,7 +87,11 @@
 }
 
 .nav-link {
-    font-size: 16px;
+    font-size: 20px;
+}
+
+.offcanvas {
+    max-width: 80%;
 }
 
 
@@ -113,16 +122,12 @@
     height: 48px;
 }
 
-.slogan-text {
-    font-family: 'Quicksand', sans-serif;
-}
-
 
 @media only screen and (max-width: 990px) {
     
     .slogan-container {
-        height: 16px;
         margin: 2rem 0;
+        height: 16px;
     }
 
     .slogan-text {
