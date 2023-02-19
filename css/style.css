@@ -98,13 +98,13 @@ body {
 @media only screen and (max-width: 990px) {
     
     .menu-style {
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     .navbar-image {
         margin-left: 2%;
-        width: 50px;
-        height: 50px;
+        width: 75px;
+        height: 75px;
     }
 
 }
@@ -117,22 +117,35 @@ body {
 
 
 /* Slogan */
-.slogan-container {
+.slogan-text {
     margin: 4rem 0;
     height: 48px;
 }
 
 
 @media only screen and (max-width: 990px) {
-    
-    .slogan-container {
-        margin: 2rem 0;
-        height: 16px;
-    }
 
     .slogan-text {
-        font-family: 'Quicksand', sans-serif;
+        margin: 2rem 0;
+        height: 16px;
         font-size: 1rem;
     }
 
+}
+
+
+/* services */
+.services-icon-km {
+    height: 30px;
+    width: 41.7px;
+}
+
+.services-icon-hmb {
+    height: 30px;
+    width: 30px;
+}
+
+.services-icon-ter {
+    height: 30px;
+    width: 36px;
 }
