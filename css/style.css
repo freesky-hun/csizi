@@ -149,3 +149,10 @@ body {
     height: 30px;
     width: 36px;
 }
+
+
+/* gallery */
+.gallery-image:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}

@@ -1,3 +1,4 @@
+//*** typeWriter ***//
 var typed = new Typed(".slogan-text", {
   strings: [
     'Megbízható, precíz szakembert keres?',
